@@ -1,0 +1,3 @@
+added money: 5
+added money: 5
+added money: 11

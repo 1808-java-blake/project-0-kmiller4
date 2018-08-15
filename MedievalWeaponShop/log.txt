@@ -1,0 +1,328 @@
+2018-08-10 13:58:47 DEBUG LoginScreen:17 - started login screen
+2018-08-10 13:59:07 TRACE LoginScreen:20 - username = btkruppa
+2018-08-10 13:59:10 DEBUG LoginScreen:28 - received users credentials
+2018-08-10 13:59:10 INFO  LoginScreen:31 - user succefully logged in
+2018-08-10 14:00:03 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:00:05 TRACE LoginScreen:20 - username = btkruppa
+2018-08-10 14:00:10 DEBUG LoginScreen:28 - received users credentials
+2018-08-10 14:00:10 INFO  LoginScreen:31 - user succefully logged in
+2018-08-10 14:01:05 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:01:07 TRACE LoginScreen:20 - username = btkruppa
+2018-08-10 14:01:08 DEBUG LoginScreen:28 - received users credentials
+2018-08-10 14:01:09 INFO  LoginScreen:31 - user succefully logged in
+2018-08-10 14:05:06 TRACE Launcher:11 - trace log
+2018-08-10 14:05:06 DEBUG Launcher:12 - debug log
+2018-08-10 14:05:06 INFO  Launcher:13 - info log
+2018-08-10 14:05:06 WARN  Launcher:14 - warn log
+2018-08-10 14:05:06 ERROR Launcher:15 - error log
+2018-08-10 14:05:06 FATAL Launcher:16 - fatal log
+2018-08-10 14:05:06 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:05:38 TRACE Launcher:11 - trace log
+2018-08-10 14:05:38 DEBUG Launcher:12 - debug log
+2018-08-10 14:05:38 INFO  Launcher:13 - info log
+2018-08-10 14:05:38 WARN  Launcher:14 - warn log
+2018-08-10 14:05:38 ERROR Launcher:15 - error log
+2018-08-10 14:05:38 FATAL Launcher:16 - fatal log
+2018-08-10 14:05:38 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:05:45 TRACE Launcher:11 - trace log
+2018-08-10 14:05:45 DEBUG Launcher:12 - debug log
+2018-08-10 14:05:45 INFO  Launcher:13 - info log
+2018-08-10 14:05:45 WARN  Launcher:14 - warn log
+2018-08-10 14:05:45 ERROR Launcher:15 - error log
+2018-08-10 14:05:45 FATAL Launcher:16 - fatal log
+2018-08-10 14:05:45 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:05:51 TRACE Launcher:11 - trace log
+2018-08-10 14:05:51 DEBUG Launcher:12 - debug log
+2018-08-10 14:05:51 INFO  Launcher:13 - info log
+2018-08-10 14:05:51 WARN  Launcher:14 - warn log
+2018-08-10 14:05:51 ERROR Launcher:15 - error log
+2018-08-10 14:05:51 FATAL Launcher:16 - fatal log
+2018-08-10 14:05:51 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:05:58 TRACE Launcher:11 - trace log
+2018-08-10 14:05:58 DEBUG Launcher:12 - debug log
+2018-08-10 14:05:58 INFO  Launcher:13 - info log
+2018-08-10 14:05:58 WARN  Launcher:14 - warn log
+2018-08-10 14:05:58 ERROR Launcher:15 - error log
+2018-08-10 14:05:58 FATAL Launcher:16 - fatal log
+2018-08-10 14:05:58 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:06:04 TRACE Launcher:11 - trace log
+2018-08-10 14:06:04 DEBUG Launcher:12 - debug log
+2018-08-10 14:06:04 INFO  Launcher:13 - info log
+2018-08-10 14:06:04 WARN  Launcher:14 - warn log
+2018-08-10 14:06:04 ERROR Launcher:15 - error log
+2018-08-10 14:06:04 FATAL Launcher:16 - fatal log
+2018-08-10 14:06:04 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:06:09 TRACE Launcher:11 - trace log
+2018-08-10 14:06:09 DEBUG Launcher:12 - debug log
+2018-08-10 14:06:09 INFO  Launcher:13 - info log
+2018-08-10 14:06:09 WARN  Launcher:14 - warn log
+2018-08-10 14:06:09 ERROR Launcher:15 - error log
+2018-08-10 14:06:09 FATAL Launcher:16 - fatal log
+2018-08-10 14:06:09 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:33:33 TRACE Launcher:11 - trace log
+2018-08-10 14:33:33 DEBUG Launcher:12 - debug log
+2018-08-10 14:33:33 INFO  Launcher:13 - info log
+2018-08-10 14:33:33 WARN  Launcher:14 - warn log
+2018-08-10 14:33:33 ERROR Launcher:15 - error log
+2018-08-10 14:33:33 FATAL Launcher:16 - fatal log
+2018-08-10 14:33:33 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:33:43 TRACE Launcher:11 - trace log
+2018-08-10 14:33:43 DEBUG Launcher:12 - debug log
+2018-08-10 14:33:43 INFO  Launcher:13 - info log
+2018-08-10 14:33:43 WARN  Launcher:14 - warn log
+2018-08-10 14:33:43 ERROR Launcher:15 - error log
+2018-08-10 14:33:43 FATAL Launcher:16 - fatal log
+2018-08-10 14:33:43 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:34:26 TRACE Launcher:11 - trace log
+2018-08-10 14:34:26 DEBUG Launcher:12 - debug log
+2018-08-10 14:34:26 INFO  Launcher:13 - info log
+2018-08-10 14:34:26 WARN  Launcher:14 - warn log
+2018-08-10 14:34:26 ERROR Launcher:15 - error log
+2018-08-10 14:34:26 FATAL Launcher:16 - fatal log
+2018-08-10 14:34:26 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:34:41 TRACE Launcher:11 - trace log
+2018-08-10 14:34:41 DEBUG Launcher:12 - debug log
+2018-08-10 14:34:41 INFO  Launcher:13 - info log
+2018-08-10 14:34:41 WARN  Launcher:14 - warn log
+2018-08-10 14:34:41 ERROR Launcher:15 - error log
+2018-08-10 14:34:41 FATAL Launcher:16 - fatal log
+2018-08-10 14:34:41 DEBUG LoginScreen:17 - started login screen
+2018-08-10 14:35:57 TRACE Launcher:11 - trace log
+2018-08-10 14:35:57 DEBUG Launcher:12 - debug log
+2018-08-10 14:35:57 INFO  Launcher:13 - info log
+2018-08-10 14:35:57 WARN  Launcher:14 - warn log
+2018-08-10 14:35:57 ERROR Launcher:15 - error log
+2018-08-10 14:35:57 FATAL Launcher:16 - fatal log
+2018-08-10 14:36:02 DEBUG LoginScreen:17 - started login screen
+2018-08-13 09:29:55 TRACE Launcher:11 - trace log
+2018-08-13 09:29:55 DEBUG Launcher:12 - debug log
+2018-08-13 09:29:55 INFO  Launcher:13 - info log
+2018-08-13 09:29:55 WARN  Launcher:14 - warn log
+2018-08-13 09:29:55 ERROR Launcher:15 - error log
+2018-08-13 09:29:55 FATAL Launcher:16 - fatal log
+2018-08-13 09:30:00 TRACE Launcher:11 - trace log
+2018-08-13 09:30:00 DEBUG Launcher:12 - debug log
+2018-08-13 09:30:00 INFO  Launcher:13 - info log
+2018-08-13 09:30:00 WARN  Launcher:14 - warn log
+2018-08-13 09:30:00 ERROR Launcher:15 - error log
+2018-08-13 09:30:00 FATAL Launcher:16 - fatal log
+2018-08-13 09:30:00 DEBUG LoginScreen:17 - started login screen
+2018-08-13 09:30:05 DEBUG LoginScreen:17 - started login screen
+2018-08-13 09:30:08 TRACE LoginScreen:20 - username = kyle
+2018-08-13 09:30:09 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 09:30:09 DEBUG LoginScreen:17 - started login screen
+2018-08-13 09:30:11 TRACE LoginScreen:20 - username = register
+2018-08-13 09:30:17 DEBUG LoginScreen:17 - started login screen
+2018-08-13 09:30:19 TRACE LoginScreen:20 - username = kyle
+2018-08-13 09:30:20 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 09:30:20 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 09:46:07 TRACE Launcher:11 - trace log
+2018-08-13 09:46:07 DEBUG Launcher:12 - debug log
+2018-08-13 09:46:07 INFO  Launcher:13 - info log
+2018-08-13 09:46:07 WARN  Launcher:14 - warn log
+2018-08-13 09:46:07 ERROR Launcher:15 - error log
+2018-08-13 09:46:07 FATAL Launcher:16 - fatal log
+2018-08-13 09:46:07 DEBUG LoginScreen:17 - started login screen
+2018-08-13 09:46:09 TRACE LoginScreen:20 - username = kyle
+2018-08-13 09:46:11 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 09:46:11 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 09:59:30 TRACE Launcher:27 - trace log
+2018-08-13 09:59:30 DEBUG Launcher:28 - debug log
+2018-08-13 09:59:30 INFO  Launcher:29 - info log
+2018-08-13 09:59:30 WARN  Launcher:30 - warn log
+2018-08-13 09:59:30 ERROR Launcher:31 - error log
+2018-08-13 09:59:30 FATAL Launcher:32 - fatal log
+2018-08-13 09:59:30 DEBUG LoginScreen:17 - started login screen
+2018-08-13 09:59:33 TRACE LoginScreen:20 - username = kyle
+2018-08-13 09:59:34 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 09:59:34 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:27:16 TRACE Launcher:27 - trace log
+2018-08-13 11:27:16 DEBUG Launcher:28 - debug log
+2018-08-13 11:27:16 INFO  Launcher:29 - info log
+2018-08-13 11:27:16 WARN  Launcher:30 - warn log
+2018-08-13 11:27:16 ERROR Launcher:31 - error log
+2018-08-13 11:27:16 FATAL Launcher:32 - fatal log
+2018-08-13 11:27:16 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:27:19 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:27:20 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:27:20 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:29:00 TRACE Launcher:27 - trace log
+2018-08-13 11:29:00 DEBUG Launcher:28 - debug log
+2018-08-13 11:29:00 INFO  Launcher:29 - info log
+2018-08-13 11:29:00 WARN  Launcher:30 - warn log
+2018-08-13 11:29:00 ERROR Launcher:31 - error log
+2018-08-13 11:29:00 FATAL Launcher:32 - fatal log
+2018-08-13 11:29:00 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:29:02 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:29:03 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:29:03 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:36:51 TRACE Launcher:27 - trace log
+2018-08-13 11:36:51 DEBUG Launcher:28 - debug log
+2018-08-13 11:36:51 INFO  Launcher:29 - info log
+2018-08-13 11:36:51 WARN  Launcher:30 - warn log
+2018-08-13 11:36:51 ERROR Launcher:31 - error log
+2018-08-13 11:36:51 FATAL Launcher:32 - fatal log
+2018-08-13 11:36:51 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:36:54 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:36:55 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:36:55 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:38:40 TRACE Launcher:27 - trace log
+2018-08-13 11:38:40 DEBUG Launcher:28 - debug log
+2018-08-13 11:38:40 INFO  Launcher:29 - info log
+2018-08-13 11:38:40 WARN  Launcher:30 - warn log
+2018-08-13 11:38:40 ERROR Launcher:31 - error log
+2018-08-13 11:38:40 FATAL Launcher:32 - fatal log
+2018-08-13 11:38:40 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:38:41 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:38:42 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:38:42 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:41:53 TRACE Launcher:27 - trace log
+2018-08-13 11:41:53 DEBUG Launcher:28 - debug log
+2018-08-13 11:41:53 INFO  Launcher:29 - info log
+2018-08-13 11:41:53 WARN  Launcher:30 - warn log
+2018-08-13 11:41:53 ERROR Launcher:31 - error log
+2018-08-13 11:41:53 FATAL Launcher:32 - fatal log
+2018-08-13 11:41:53 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:41:55 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:41:56 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:41:56 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:46:32 TRACE Launcher:27 - trace log
+2018-08-13 11:46:32 DEBUG Launcher:28 - debug log
+2018-08-13 11:46:32 INFO  Launcher:29 - info log
+2018-08-13 11:46:32 WARN  Launcher:30 - warn log
+2018-08-13 11:46:32 ERROR Launcher:31 - error log
+2018-08-13 11:46:32 FATAL Launcher:32 - fatal log
+2018-08-13 11:46:32 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:46:34 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:46:35 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:46:35 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:50:01 TRACE Launcher:27 - trace log
+2018-08-13 11:50:01 DEBUG Launcher:28 - debug log
+2018-08-13 11:50:01 INFO  Launcher:29 - info log
+2018-08-13 11:50:01 WARN  Launcher:30 - warn log
+2018-08-13 11:50:01 ERROR Launcher:31 - error log
+2018-08-13 11:50:01 FATAL Launcher:32 - fatal log
+2018-08-13 11:50:01 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:50:02 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:50:03 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:50:03 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:54:30 TRACE Launcher:27 - trace log
+2018-08-13 11:54:30 DEBUG Launcher:28 - debug log
+2018-08-13 11:54:30 INFO  Launcher:29 - info log
+2018-08-13 11:54:30 WARN  Launcher:30 - warn log
+2018-08-13 11:54:30 ERROR Launcher:31 - error log
+2018-08-13 11:54:30 FATAL Launcher:32 - fatal log
+2018-08-13 11:54:30 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:54:32 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:54:33 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:54:33 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:55:50 TRACE Launcher:27 - trace log
+2018-08-13 11:55:50 DEBUG Launcher:28 - debug log
+2018-08-13 11:55:50 INFO  Launcher:29 - info log
+2018-08-13 11:55:50 WARN  Launcher:30 - warn log
+2018-08-13 11:55:50 ERROR Launcher:31 - error log
+2018-08-13 11:55:50 FATAL Launcher:32 - fatal log
+2018-08-13 11:55:50 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:55:52 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:55:53 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:55:53 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:56:36 TRACE Launcher:27 - trace log
+2018-08-13 11:56:36 DEBUG Launcher:28 - debug log
+2018-08-13 11:56:36 INFO  Launcher:29 - info log
+2018-08-13 11:56:36 WARN  Launcher:30 - warn log
+2018-08-13 11:56:36 ERROR Launcher:31 - error log
+2018-08-13 11:56:36 FATAL Launcher:32 - fatal log
+2018-08-13 11:56:36 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:56:38 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:56:40 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:56:40 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:58:23 TRACE Launcher:27 - trace log
+2018-08-13 11:58:23 DEBUG Launcher:28 - debug log
+2018-08-13 11:58:23 INFO  Launcher:29 - info log
+2018-08-13 11:58:23 WARN  Launcher:30 - warn log
+2018-08-13 11:58:23 ERROR Launcher:31 - error log
+2018-08-13 11:58:23 FATAL Launcher:32 - fatal log
+2018-08-13 11:58:23 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:58:26 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:58:27 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:58:27 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 11:59:49 TRACE Launcher:27 - trace log
+2018-08-13 11:59:49 DEBUG Launcher:28 - debug log
+2018-08-13 11:59:49 INFO  Launcher:29 - info log
+2018-08-13 11:59:49 WARN  Launcher:30 - warn log
+2018-08-13 11:59:49 ERROR Launcher:31 - error log
+2018-08-13 11:59:49 FATAL Launcher:32 - fatal log
+2018-08-13 11:59:49 DEBUG LoginScreen:17 - started login screen
+2018-08-13 11:59:52 TRACE LoginScreen:20 - username = kyle
+2018-08-13 11:59:53 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 11:59:53 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 12:00:36 TRACE Launcher:27 - trace log
+2018-08-13 12:00:36 DEBUG Launcher:28 - debug log
+2018-08-13 12:00:36 INFO  Launcher:29 - info log
+2018-08-13 12:00:36 WARN  Launcher:30 - warn log
+2018-08-13 12:00:36 ERROR Launcher:31 - error log
+2018-08-13 12:00:36 FATAL Launcher:32 - fatal log
+2018-08-13 12:00:36 DEBUG LoginScreen:17 - started login screen
+2018-08-13 12:00:39 TRACE LoginScreen:20 - username = kye
+2018-08-13 12:00:40 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 12:00:40 DEBUG LoginScreen:17 - started login screen
+2018-08-13 12:00:43 TRACE LoginScreen:20 - username = kyle
+2018-08-13 12:00:44 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 12:00:44 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 12:02:13 TRACE Launcher:27 - trace log
+2018-08-13 12:02:13 DEBUG Launcher:28 - debug log
+2018-08-13 12:02:13 INFO  Launcher:29 - info log
+2018-08-13 12:02:13 WARN  Launcher:30 - warn log
+2018-08-13 12:02:13 ERROR Launcher:31 - error log
+2018-08-13 12:02:13 FATAL Launcher:32 - fatal log
+2018-08-13 12:02:13 DEBUG LoginScreen:17 - started login screen
+2018-08-13 12:02:15 TRACE LoginScreen:20 - username = kyle
+2018-08-13 12:02:17 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 12:02:17 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 12:03:42 TRACE Launcher:27 - trace log
+2018-08-13 12:03:43 DEBUG Launcher:28 - debug log
+2018-08-13 12:03:43 INFO  Launcher:29 - info log
+2018-08-13 12:03:43 WARN  Launcher:30 - warn log
+2018-08-13 12:03:43 ERROR Launcher:31 - error log
+2018-08-13 12:03:43 FATAL Launcher:32 - fatal log
+2018-08-13 12:03:43 DEBUG LoginScreen:17 - started login screen
+2018-08-13 12:03:45 TRACE LoginScreen:20 - username = kyle
+2018-08-13 12:03:46 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 12:03:46 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 12:04:41 TRACE Launcher:27 - trace log
+2018-08-13 12:04:41 DEBUG Launcher:28 - debug log
+2018-08-13 12:04:41 INFO  Launcher:29 - info log
+2018-08-13 12:04:41 WARN  Launcher:30 - warn log
+2018-08-13 12:04:41 ERROR Launcher:31 - error log
+2018-08-13 12:04:41 FATAL Launcher:32 - fatal log
+2018-08-13 12:04:41 DEBUG LoginScreen:17 - started login screen
+2018-08-13 12:04:42 TRACE LoginScreen:20 - username = kyle
+2018-08-13 12:04:43 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 12:04:43 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 12:05:03 TRACE Launcher:27 - trace log
+2018-08-13 12:05:03 DEBUG Launcher:28 - debug log
+2018-08-13 12:05:03 INFO  Launcher:29 - info log
+2018-08-13 12:05:03 WARN  Launcher:30 - warn log
+2018-08-13 12:05:03 ERROR Launcher:31 - error log
+2018-08-13 12:05:03 FATAL Launcher:32 - fatal log
+2018-08-13 12:05:03 DEBUG LoginScreen:17 - started login screen
+2018-08-13 12:05:05 TRACE LoginScreen:20 - username = kyle
+2018-08-13 12:05:06 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 12:05:06 INFO  LoginScreen:31 - user succefully logged in
+2018-08-13 12:27:14 TRACE Launcher:27 - trace log
+2018-08-13 12:27:14 DEBUG Launcher:28 - debug log
+2018-08-13 12:27:14 INFO  Launcher:29 - info log
+2018-08-13 12:27:14 WARN  Launcher:30 - warn log
+2018-08-13 12:27:14 ERROR Launcher:31 - error log
+2018-08-13 12:27:14 FATAL Launcher:32 - fatal log
+2018-08-13 12:27:14 DEBUG LoginScreen:17 - started login screen
+2018-08-13 12:27:34 TRACE Launcher:27 - trace log
+2018-08-13 12:27:34 DEBUG Launcher:28 - debug log
+2018-08-13 12:27:34 INFO  Launcher:29 - info log
+2018-08-13 12:27:34 WARN  Launcher:30 - warn log
+2018-08-13 12:27:34 ERROR Launcher:31 - error log
+2018-08-13 12:27:34 FATAL Launcher:32 - fatal log
+2018-08-13 12:27:34 DEBUG LoginScreen:17 - started login screen
+2018-08-13 12:27:35 TRACE LoginScreen:20 - username = kyle
+2018-08-13 12:27:36 DEBUG LoginScreen:28 - received users credentials
+2018-08-13 12:27:36 INFO  LoginScreen:31 - user succefully logged in
