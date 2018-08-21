@@ -326,3 +326,703 @@
 2018-08-13 12:27:35 TRACE LoginScreen:20 - username = kyle
 2018-08-13 12:27:36 DEBUG LoginScreen:28 - received users credentials
 2018-08-13 12:27:36 INFO  LoginScreen:31 - user succefully logged in
+2018-08-17 15:50:22 TRACE Launcher:27 - trace log
+2018-08-17 15:50:22 DEBUG Launcher:28 - debug log
+2018-08-17 15:50:22 INFO  Launcher:29 - info log
+2018-08-17 15:50:22 WARN  Launcher:30 - warn log
+2018-08-17 15:50:22 ERROR Launcher:31 - error log
+2018-08-17 15:50:22 FATAL Launcher:32 - fatal log
+2018-08-17 15:50:22 DEBUG LoginScreen:19 - started login screen
+2018-08-17 15:50:29 TRACE LoginScreen:22 - username = kyle
+2018-08-17 15:50:30 DEBUG LoginScreen:30 - received users credentials
+2018-08-17 15:50:31 DEBUG LoginScreen:19 - started login screen
+2018-08-17 15:50:47 TRACE LoginScreen:22 - username = register
+2018-08-17 15:50:52 ERROR UserDaoJdbc:41 - FATAL: password authentication failed for user "postgres"
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:473)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:205)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - org.postgresql.Driver.makeConnection(Driver.java:452)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - org.postgresql.Driver.connect(Driver.java:254)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - java.sql.DriverManager.getConnection(Unknown Source)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - java.sql.DriverManager.getConnection(Unknown Source)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:29)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:29)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:34)
+2018-08-17 15:50:52 ERROR UserDaoJdbc:43 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-17 15:50:52 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-17 15:50:52 DEBUG LoginScreen:19 - started login screen
+2018-08-17 16:03:35 TRACE Launcher:27 - trace log
+2018-08-17 16:03:35 DEBUG Launcher:28 - debug log
+2018-08-17 16:03:35 INFO  Launcher:29 - info log
+2018-08-17 16:03:35 WARN  Launcher:30 - warn log
+2018-08-17 16:03:35 ERROR Launcher:31 - error log
+2018-08-17 16:03:35 FATAL Launcher:32 - fatal log
+2018-08-17 16:03:35 DEBUG LoginScreen:19 - started login screen
+2018-08-17 16:03:39 TRACE LoginScreen:22 - username = kyle
+2018-08-17 16:03:41 DEBUG LoginScreen:30 - received users credentials
+2018-08-17 16:03:43 DEBUG LoginScreen:19 - started login screen
+2018-08-18 12:53:43 TRACE Launcher:27 - trace log
+2018-08-18 12:53:43 DEBUG Launcher:28 - debug log
+2018-08-18 12:53:43 INFO  Launcher:29 - info log
+2018-08-18 12:53:43 WARN  Launcher:30 - warn log
+2018-08-18 12:53:43 ERROR Launcher:31 - error log
+2018-08-18 12:53:43 FATAL Launcher:32 - fatal log
+2018-08-18 12:53:43 DEBUG LoginScreen:19 - started login screen
+2018-08-18 12:53:45 TRACE LoginScreen:22 - username = kyle
+2018-08-18 12:53:47 DEBUG LoginScreen:30 - received users credentials
+2018-08-18 12:53:48 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:04:24 TRACE Launcher:27 - trace log
+2018-08-18 13:04:24 DEBUG Launcher:28 - debug log
+2018-08-18 13:04:24 INFO  Launcher:29 - info log
+2018-08-18 13:04:24 WARN  Launcher:30 - warn log
+2018-08-18 13:04:24 ERROR Launcher:31 - error log
+2018-08-18 13:04:24 FATAL Launcher:32 - fatal log
+2018-08-18 13:04:24 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:04:28 TRACE LoginScreen:22 - username = register
+2018-08-18 13:04:39 ERROR UserDaoJdbc:40 - The column index is out of range: 5, number of columns: 4.
+2018-08-18 13:04:39 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:65)
+2018-08-18 13:04:39 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.SimpleParameterList.setNull(SimpleParameterList.java:163)
+2018-08-18 13:04:39 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.setString(PgPreparedStatement.java:342)
+2018-08-18 13:04:39 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.setString(PgPreparedStatement.java:328)
+2018-08-18 13:04:39 ERROR UserDaoJdbc:42 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:35)
+2018-08-18 13:04:39 ERROR UserDaoJdbc:42 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:37)
+2018-08-18 13:04:39 ERROR UserDaoJdbc:42 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-18 13:04:39 WARN  UserDaoJdbc:44 - failed to create new user
+2018-08-18 13:04:39 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:04:42 TRACE LoginScreen:22 - username = kyle
+2018-08-18 13:04:44 DEBUG LoginScreen:30 - received users credentials
+2018-08-18 13:04:44 WARN  UserDaoJdbc:72 - failed to find user with provided credentials from the db
+2018-08-18 13:04:44 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:05:29 TRACE Launcher:27 - trace log
+2018-08-18 13:05:29 DEBUG Launcher:28 - debug log
+2018-08-18 13:05:29 INFO  Launcher:29 - info log
+2018-08-18 13:05:29 WARN  Launcher:30 - warn log
+2018-08-18 13:05:29 ERROR Launcher:31 - error log
+2018-08-18 13:05:29 FATAL Launcher:32 - fatal log
+2018-08-18 13:05:30 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:05:34 TRACE LoginScreen:22 - username = register
+2018-08-18 13:05:37 ERROR UserDaoJdbc:40 - The column index is out of range: 5, number of columns: 4.
+2018-08-18 13:05:37 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:65)
+2018-08-18 13:05:37 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.SimpleParameterList.setNull(SimpleParameterList.java:163)
+2018-08-18 13:05:37 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.setString(PgPreparedStatement.java:342)
+2018-08-18 13:05:37 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.setString(PgPreparedStatement.java:328)
+2018-08-18 13:05:37 ERROR UserDaoJdbc:42 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:35)
+2018-08-18 13:05:37 ERROR UserDaoJdbc:42 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:37)
+2018-08-18 13:05:37 ERROR UserDaoJdbc:42 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-18 13:05:37 WARN  UserDaoJdbc:44 - failed to create new user
+2018-08-18 13:05:37 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:05:40 TRACE LoginScreen:22 - username = kyle
+2018-08-18 13:05:41 DEBUG LoginScreen:30 - received users credentials
+2018-08-18 13:05:41 WARN  UserDaoJdbc:72 - failed to find user with provided credentials from the db
+2018-08-18 13:05:41 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:08:34 TRACE Launcher:27 - trace log
+2018-08-18 13:08:34 DEBUG Launcher:28 - debug log
+2018-08-18 13:08:34 INFO  Launcher:29 - info log
+2018-08-18 13:08:34 WARN  Launcher:30 - warn log
+2018-08-18 13:08:34 ERROR Launcher:31 - error log
+2018-08-18 13:08:34 FATAL Launcher:32 - fatal log
+2018-08-18 13:08:34 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:08:39 TRACE LoginScreen:22 - username = register
+2018-08-18 13:08:50 ERROR UserDaoJdbc:40 - The column index is out of range: 5, number of columns: 4.
+2018-08-18 13:08:50 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:65)
+2018-08-18 13:08:50 ERROR UserDaoJdbc:42 - org.postgresql.core.v3.SimpleParameterList.setStringParameter(SimpleParameterList.java:128)
+2018-08-18 13:08:50 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.bindString(PgPreparedStatement.java:1023)
+2018-08-18 13:08:50 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.setString(PgPreparedStatement.java:344)
+2018-08-18 13:08:50 ERROR UserDaoJdbc:42 - org.postgresql.jdbc.PgPreparedStatement.setString(PgPreparedStatement.java:328)
+2018-08-18 13:08:50 ERROR UserDaoJdbc:42 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:35)
+2018-08-18 13:08:50 ERROR UserDaoJdbc:42 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:38)
+2018-08-18 13:08:50 ERROR UserDaoJdbc:42 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-18 13:08:50 WARN  UserDaoJdbc:44 - failed to create new user
+2018-08-18 13:08:50 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:08:53 TRACE LoginScreen:22 - username = kmiller
+2018-08-18 13:08:55 DEBUG LoginScreen:30 - received users credentials
+2018-08-18 13:08:56 WARN  UserDaoJdbc:72 - failed to find user with provided credentials from the db
+2018-08-18 13:08:56 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:16:51 TRACE Launcher:27 - trace log
+2018-08-18 13:16:51 DEBUG Launcher:28 - debug log
+2018-08-18 13:16:51 INFO  Launcher:29 - info log
+2018-08-18 13:16:51 WARN  Launcher:30 - warn log
+2018-08-18 13:16:51 ERROR Launcher:31 - error log
+2018-08-18 13:16:51 FATAL Launcher:32 - fatal log
+2018-08-18 13:16:51 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:16:58 TRACE LoginScreen:22 - username = register
+2018-08-18 13:17:05 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-18 13:17:05 DEBUG LoginScreen:19 - started login screen
+2018-08-18 13:17:08 TRACE LoginScreen:22 - username = kmiller
+2018-08-18 13:17:09 DEBUG LoginScreen:30 - received users credentials
+2018-08-18 13:17:09 INFO  LoginScreen:34 - user successfully logged in
+2018-08-18 13:17:09 INFO  LoginScreen:35 - WelcomeUser [username=kmiller, password=null, firstName=kyle, lastName=miller]!
+2018-08-20 15:07:37 TRACE Launcher:27 - trace log
+2018-08-20 15:07:37 DEBUG Launcher:28 - debug log
+2018-08-20 15:07:37 INFO  Launcher:29 - info log
+2018-08-20 15:07:37 WARN  Launcher:30 - warn log
+2018-08-20 15:07:37 ERROR Launcher:31 - error log
+2018-08-20 15:07:37 FATAL Launcher:32 - fatal log
+2018-08-20 15:07:37 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:07:42 TRACE LoginScreen:24 - username = register
+2018-08-20 15:07:52 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:07:52 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:11:42 TRACE Launcher:27 - trace log
+2018-08-20 15:11:42 DEBUG Launcher:28 - debug log
+2018-08-20 15:11:42 INFO  Launcher:29 - info log
+2018-08-20 15:11:42 WARN  Launcher:30 - warn log
+2018-08-20 15:11:42 ERROR Launcher:31 - error log
+2018-08-20 15:11:42 FATAL Launcher:32 - fatal log
+2018-08-20 15:11:42 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:11:46 TRACE LoginScreen:24 - username = register
+2018-08-20 15:11:54 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:11:54 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:13:20 TRACE Launcher:27 - trace log
+2018-08-20 15:13:20 DEBUG Launcher:28 - debug log
+2018-08-20 15:13:20 INFO  Launcher:29 - info log
+2018-08-20 15:13:20 WARN  Launcher:30 - warn log
+2018-08-20 15:13:20 ERROR Launcher:31 - error log
+2018-08-20 15:13:20 FATAL Launcher:32 - fatal log
+2018-08-20 15:13:20 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:13:23 TRACE LoginScreen:24 - username = register
+2018-08-20 15:13:31 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:13:31 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:15:00 TRACE Launcher:27 - trace log
+2018-08-20 15:15:00 DEBUG Launcher:28 - debug log
+2018-08-20 15:15:00 INFO  Launcher:29 - info log
+2018-08-20 15:15:00 WARN  Launcher:30 - warn log
+2018-08-20 15:15:00 ERROR Launcher:31 - error log
+2018-08-20 15:15:00 FATAL Launcher:32 - fatal log
+2018-08-20 15:15:00 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:15:04 TRACE LoginScreen:24 - username = reigster
+2018-08-20 15:15:05 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 15:15:06 WARN  UserDaoJdbc:80 - failed to find user with provided credentials from the db
+2018-08-20 15:15:06 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:15:13 TRACE LoginScreen:24 - username = register
+2018-08-20 15:15:17 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:15:17 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:17:26 TRACE Launcher:27 - trace log
+2018-08-20 15:17:26 DEBUG Launcher:28 - debug log
+2018-08-20 15:17:26 INFO  Launcher:29 - info log
+2018-08-20 15:17:26 WARN  Launcher:30 - warn log
+2018-08-20 15:17:26 ERROR Launcher:31 - error log
+2018-08-20 15:17:26 FATAL Launcher:32 - fatal log
+2018-08-20 15:17:26 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:17:31 TRACE LoginScreen:24 - username = register
+2018-08-20 15:17:35 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:17:35 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:19:17 TRACE Launcher:27 - trace log
+2018-08-20 15:19:17 DEBUG Launcher:28 - debug log
+2018-08-20 15:19:17 INFO  Launcher:29 - info log
+2018-08-20 15:19:17 WARN  Launcher:30 - warn log
+2018-08-20 15:19:17 ERROR Launcher:31 - error log
+2018-08-20 15:19:17 FATAL Launcher:32 - fatal log
+2018-08-20 15:19:17 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:19:22 TRACE LoginScreen:24 - username = register
+2018-08-20 15:19:26 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:19:26 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:19:26 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:19:26 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:19:26 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:19:26 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:19:26 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:19:26 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:19:26 ERROR UserDaoJdbc:48 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:42)
+2018-08-20 15:19:26 ERROR UserDaoJdbc:48 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:40)
+2018-08-20 15:19:26 ERROR UserDaoJdbc:48 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-20 15:19:26 WARN  UserDaoJdbc:50 - failed to create new user
+2018-08-20 15:19:26 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:19:41 TRACE Launcher:27 - trace log
+2018-08-20 15:19:41 DEBUG Launcher:28 - debug log
+2018-08-20 15:19:41 INFO  Launcher:29 - info log
+2018-08-20 15:19:41 WARN  Launcher:30 - warn log
+2018-08-20 15:19:41 ERROR Launcher:31 - error log
+2018-08-20 15:19:41 FATAL Launcher:32 - fatal log
+2018-08-20 15:19:41 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:19:44 TRACE LoginScreen:24 - username = register
+2018-08-20 15:19:47 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:19:47 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:19:47 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:19:47 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:19:47 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:19:47 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:19:47 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:19:47 ERROR UserDaoJdbc:48 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:36)
+2018-08-20 15:19:47 ERROR UserDaoJdbc:48 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:40)
+2018-08-20 15:19:47 ERROR UserDaoJdbc:48 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-20 15:19:47 WARN  UserDaoJdbc:50 - failed to create new user
+2018-08-20 15:19:47 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:19:54 TRACE Launcher:27 - trace log
+2018-08-20 15:19:54 DEBUG Launcher:28 - debug log
+2018-08-20 15:19:54 INFO  Launcher:29 - info log
+2018-08-20 15:19:54 WARN  Launcher:30 - warn log
+2018-08-20 15:19:54 ERROR Launcher:31 - error log
+2018-08-20 15:19:54 FATAL Launcher:32 - fatal log
+2018-08-20 15:19:54 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:19:59 TRACE LoginScreen:24 - username = register
+2018-08-20 15:20:02 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:20:02 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:21:40 TRACE Launcher:27 - trace log
+2018-08-20 15:21:40 DEBUG Launcher:28 - debug log
+2018-08-20 15:21:40 INFO  Launcher:29 - info log
+2018-08-20 15:21:40 WARN  Launcher:30 - warn log
+2018-08-20 15:21:40 ERROR Launcher:31 - error log
+2018-08-20 15:21:40 FATAL Launcher:32 - fatal log
+2018-08-20 15:21:40 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:21:43 TRACE LoginScreen:24 - username = register
+2018-08-20 15:21:49 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:21:49 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:21:49 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:21:49 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:21:49 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:21:49 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:21:49 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:21:49 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:21:49 ERROR UserDaoJdbc:48 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:42)
+2018-08-20 15:21:49 ERROR UserDaoJdbc:48 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:40)
+2018-08-20 15:21:49 ERROR UserDaoJdbc:48 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-20 15:21:49 WARN  UserDaoJdbc:50 - failed to create new user
+2018-08-20 15:21:49 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:21:58 TRACE LoginScreen:24 - username = register
+2018-08-20 15:22:02 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:22:02 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:22:02 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:22:02 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:22:02 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:22:02 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:22:02 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:22:02 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:22:02 ERROR UserDaoJdbc:48 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:42)
+2018-08-20 15:22:02 ERROR UserDaoJdbc:48 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:40)
+2018-08-20 15:22:02 ERROR UserDaoJdbc:48 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-20 15:22:02 WARN  UserDaoJdbc:50 - failed to create new user
+2018-08-20 15:22:02 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:23:16 TRACE Launcher:27 - trace log
+2018-08-20 15:23:16 DEBUG Launcher:28 - debug log
+2018-08-20 15:23:16 INFO  Launcher:29 - info log
+2018-08-20 15:23:16 WARN  Launcher:30 - warn log
+2018-08-20 15:23:16 ERROR Launcher:31 - error log
+2018-08-20 15:23:16 FATAL Launcher:32 - fatal log
+2018-08-20 15:23:16 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:23:19 TRACE LoginScreen:24 - username = register
+2018-08-20 15:23:22 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:23:22 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 15:23:22 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 15:23:22 ERROR UserDaoJdbc:48 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 15:23:22 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:23:22 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:23:22 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:23:22 ERROR UserDaoJdbc:48 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:23:22 ERROR UserDaoJdbc:48 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:42)
+2018-08-20 15:23:22 ERROR UserDaoJdbc:48 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:40)
+2018-08-20 15:23:22 ERROR UserDaoJdbc:48 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-20 15:23:22 WARN  UserDaoJdbc:50 - failed to create new user
+2018-08-20 15:23:22 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:35:56 TRACE Launcher:27 - trace log
+2018-08-20 15:35:56 DEBUG Launcher:28 - debug log
+2018-08-20 15:35:56 INFO  Launcher:29 - info log
+2018-08-20 15:35:56 WARN  Launcher:30 - warn log
+2018-08-20 15:35:56 ERROR Launcher:31 - error log
+2018-08-20 15:35:56 FATAL Launcher:32 - fatal log
+2018-08-20 15:35:56 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:35:59 TRACE LoginScreen:24 - username = register
+2018-08-20 15:36:06 TRACE UserDaoJdbc:37 - 1 records created
+2018-08-20 15:36:06 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:53:43 TRACE Launcher:27 - trace log
+2018-08-20 15:53:43 DEBUG Launcher:28 - debug log
+2018-08-20 15:53:43 INFO  Launcher:29 - info log
+2018-08-20 15:53:43 WARN  Launcher:30 - warn log
+2018-08-20 15:53:43 ERROR Launcher:31 - error log
+2018-08-20 15:53:43 FATAL Launcher:32 - fatal log
+2018-08-20 15:53:43 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:53:48 TRACE LoginScreen:24 - username = login
+2018-08-20 15:53:55 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 15:53:56 WARN  UserDaoJdbc:89 - failed to find user with provided credentials from the db
+2018-08-20 15:53:56 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:54:01 TRACE LoginScreen:24 - username = i
+2018-08-20 15:54:03 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 15:54:03 WARN  UserDaoJdbc:89 - failed to find user with provided credentials from the db
+2018-08-20 15:54:03 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:54:12 TRACE LoginScreen:24 - username = register
+2018-08-20 15:54:58 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-20 15:54:58 DEBUG LoginScreen:20 - started login screen
+2018-08-20 15:55:02 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 15:55:04 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 15:55:04 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 15:55:04 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 15:55:10 ERROR AccountDaoJdbc:38 - No value specified for parameter 1.
+2018-08-20 15:55:10 ERROR AccountDaoJdbc:40 - org.postgresql.core.v3.SimpleParameterList.checkAllParametersSet(SimpleParameterList.java:257)
+2018-08-20 15:55:10 ERROR AccountDaoJdbc:40 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:290)
+2018-08-20 15:55:10 ERROR AccountDaoJdbc:40 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 15:55:10 ERROR AccountDaoJdbc:40 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 15:55:10 ERROR AccountDaoJdbc:40 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 15:55:10 ERROR AccountDaoJdbc:40 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 15:55:10 ERROR AccountDaoJdbc:40 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:28)
+2018-08-20 15:55:10 ERROR AccountDaoJdbc:40 - com.revature.screens.StoreWeaponsScreen.start(StoreWeaponsScreen.java:30)
+2018-08-20 15:55:10 ERROR AccountDaoJdbc:40 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-20 15:55:10 WARN  AccountDaoJdbc:42 - failed to create new user
+2018-08-20 15:55:10 ERROR StoreWeaponsScreen:32 - failed to create account
+2018-08-20 15:55:10 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:34:52 TRACE Launcher:27 - trace log
+2018-08-20 22:34:52 DEBUG Launcher:28 - debug log
+2018-08-20 22:34:52 INFO  Launcher:29 - info log
+2018-08-20 22:34:52 WARN  Launcher:30 - warn log
+2018-08-20 22:34:52 ERROR Launcher:31 - error log
+2018-08-20 22:34:52 FATAL Launcher:32 - fatal log
+2018-08-20 22:34:52 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:34:57 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 22:34:59 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 22:34:59 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 22:34:59 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 22:35:03 ERROR StoreWeaponsScreen:51 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 22:35:03 ERROR StoreWeaponsScreen:51 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 22:35:03 ERROR StoreWeaponsScreen:51 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 22:35:03 ERROR StoreWeaponsScreen:51 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 22:35:03 ERROR StoreWeaponsScreen:51 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 22:35:03 ERROR StoreWeaponsScreen:51 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 22:35:03 ERROR StoreWeaponsScreen:51 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 22:35:03 ERROR StoreWeaponsScreen:51 - com.revature.screens.StoreWeaponsScreen.start(StoreWeaponsScreen.java:43)
+2018-08-20 22:35:03 ERROR StoreWeaponsScreen:51 - com.revature.launcher.Launcher.main(Launcher.java:36)
+2018-08-20 22:35:03 WARN  StoreWeaponsScreen:53 - failed to create new user
+2018-08-20 22:35:13 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:44:01 TRACE Launcher:27 - trace log
+2018-08-20 22:44:01 DEBUG Launcher:28 - debug log
+2018-08-20 22:44:01 INFO  Launcher:29 - info log
+2018-08-20 22:44:01 WARN  Launcher:30 - warn log
+2018-08-20 22:44:01 ERROR Launcher:31 - error log
+2018-08-20 22:44:01 FATAL Launcher:32 - fatal log
+2018-08-20 22:44:01 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:44:08 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 22:44:09 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 22:44:10 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 22:44:10 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 22:44:13 TRACE StoreWeaponsScreen:44 - 1 weapons stored
+2018-08-20 22:44:28 TRACE StoreWeaponsScreen:44 - 1 weapons stored
+2018-08-20 22:47:54 TRACE Launcher:27 - trace log
+2018-08-20 22:47:54 DEBUG Launcher:28 - debug log
+2018-08-20 22:47:54 INFO  Launcher:29 - info log
+2018-08-20 22:47:54 WARN  Launcher:30 - warn log
+2018-08-20 22:47:54 ERROR Launcher:31 - error log
+2018-08-20 22:47:54 FATAL Launcher:32 - fatal log
+2018-08-20 22:47:54 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:47:59 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 22:48:01 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 22:48:02 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 22:48:02 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 22:48:05 TRACE StoreWeaponsScreen:45 - 1 weapons stored
+2018-08-20 22:48:10 TRACE StoreWeaponsScreen:45 - 1 weapons stored
+2018-08-20 22:49:58 TRACE Launcher:27 - trace log
+2018-08-20 22:49:58 DEBUG Launcher:28 - debug log
+2018-08-20 22:49:58 INFO  Launcher:29 - info log
+2018-08-20 22:49:58 WARN  Launcher:30 - warn log
+2018-08-20 22:49:58 ERROR Launcher:31 - error log
+2018-08-20 22:49:58 FATAL Launcher:32 - fatal log
+2018-08-20 22:49:58 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:50:01 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 22:50:06 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 22:50:07 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 22:50:07 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 22:50:10 TRACE StoreWeaponsScreen:46 - 1 weapons stored
+2018-08-20 22:50:21 TRACE StoreWeaponsScreen:46 - 1 weapons stored
+2018-08-20 22:51:11 TRACE Launcher:27 - trace log
+2018-08-20 22:51:11 DEBUG Launcher:28 - debug log
+2018-08-20 22:51:11 INFO  Launcher:29 - info log
+2018-08-20 22:51:11 WARN  Launcher:30 - warn log
+2018-08-20 22:51:11 ERROR Launcher:31 - error log
+2018-08-20 22:51:11 FATAL Launcher:32 - fatal log
+2018-08-20 22:51:11 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:51:17 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 22:51:18 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 22:51:18 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 22:51:18 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 22:51:20 TRACE StoreWeaponsScreen:48 - 1 weapons stored
+2018-08-20 22:54:09 TRACE Launcher:27 - trace log
+2018-08-20 22:54:09 DEBUG Launcher:28 - debug log
+2018-08-20 22:54:09 INFO  Launcher:29 - info log
+2018-08-20 22:54:09 WARN  Launcher:30 - warn log
+2018-08-20 22:54:09 ERROR Launcher:31 - error log
+2018-08-20 22:54:09 FATAL Launcher:32 - fatal log
+2018-08-20 22:54:09 DEBUG LoginScreen:20 - started login screen
+2018-08-20 22:54:13 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 22:54:15 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 22:54:16 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 22:54:16 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 22:54:18 TRACE StoreWeaponsScreen:49 - 1 weapons stored
+2018-08-20 23:01:16 TRACE Launcher:27 - trace log
+2018-08-20 23:01:16 DEBUG Launcher:28 - debug log
+2018-08-20 23:01:16 INFO  Launcher:29 - info log
+2018-08-20 23:01:16 WARN  Launcher:30 - warn log
+2018-08-20 23:01:16 ERROR Launcher:31 - error log
+2018-08-20 23:01:16 FATAL Launcher:32 - fatal log
+2018-08-20 23:01:16 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:01:20 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:01:23 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:01:23 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:01:23 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:01:27 TRACE StoreWeaponsScreen:48 - 1 weapons stored
+2018-08-20 23:01:34 TRACE StoreWeaponsScreen:48 - 1 weapons stored
+2018-08-20 23:10:08 TRACE Launcher:27 - trace log
+2018-08-20 23:10:08 DEBUG Launcher:28 - debug log
+2018-08-20 23:10:08 INFO  Launcher:29 - info log
+2018-08-20 23:10:08 WARN  Launcher:30 - warn log
+2018-08-20 23:10:08 ERROR Launcher:31 - error log
+2018-08-20 23:10:08 FATAL Launcher:32 - fatal log
+2018-08-20 23:10:09 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:10:13 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:10:15 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:10:16 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:10:16 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:10:18 TRACE StoreWeaponsScreen:48 - 1 weapons stored
+2018-08-20 23:10:25 TRACE StoreWeaponsScreen:48 - 1 weapons stored
+2018-08-20 23:10:43 TRACE StoreWeaponsScreen:48 - 1 weapons stored
+2018-08-20 23:13:39 TRACE Launcher:27 - trace log
+2018-08-20 23:13:39 DEBUG Launcher:28 - debug log
+2018-08-20 23:13:39 INFO  Launcher:29 - info log
+2018-08-20 23:13:39 WARN  Launcher:30 - warn log
+2018-08-20 23:13:39 ERROR Launcher:31 - error log
+2018-08-20 23:13:39 FATAL Launcher:32 - fatal log
+2018-08-20 23:13:39 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:13:49 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:13:51 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:13:51 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:13:51 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:13:54 TRACE StoreWeaponsScreen:48 - 1 weapons stored
+2018-08-20 23:14:08 TRACE WithdrawScreen:48 - 1 weapons withdrawn
+2018-08-20 23:15:05 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:15:16 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:15:18 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:15:18 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:15:18 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:15:25 TRACE StoreWeaponsScreen:48 - 1 weapons stored
+2018-08-20 23:15:39 TRACE Launcher:27 - trace log
+2018-08-20 23:15:39 DEBUG Launcher:28 - debug log
+2018-08-20 23:15:39 INFO  Launcher:29 - info log
+2018-08-20 23:15:39 WARN  Launcher:30 - warn log
+2018-08-20 23:15:39 ERROR Launcher:31 - error log
+2018-08-20 23:15:39 FATAL Launcher:32 - fatal log
+2018-08-20 23:15:39 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:15:43 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:15:45 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:15:45 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:15:45 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:15:50 TRACE StoreWeaponsScreen:45 - 1 weapons stored
+2018-08-20 23:16:04 TRACE Launcher:27 - trace log
+2018-08-20 23:16:04 DEBUG Launcher:28 - debug log
+2018-08-20 23:16:04 INFO  Launcher:29 - info log
+2018-08-20 23:16:04 WARN  Launcher:30 - warn log
+2018-08-20 23:16:04 ERROR Launcher:31 - error log
+2018-08-20 23:16:04 FATAL Launcher:32 - fatal log
+2018-08-20 23:16:04 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:16:08 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:16:09 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:16:09 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:16:09 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:16:22 TRACE StoreWeaponsScreen:45 - 1 weapons stored
+2018-08-20 23:20:06 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:20:10 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:20:11 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:20:11 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:20:11 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:20:22 TRACE StoreWeaponsScreen:45 - 1 weapons stored
+2018-08-20 23:20:35 TRACE StoreWeaponsScreen:45 - 1 weapons stored
+2018-08-20 23:20:48 TRACE Launcher:27 - trace log
+2018-08-20 23:20:48 DEBUG Launcher:28 - debug log
+2018-08-20 23:20:48 INFO  Launcher:29 - info log
+2018-08-20 23:20:48 WARN  Launcher:30 - warn log
+2018-08-20 23:20:48 ERROR Launcher:31 - error log
+2018-08-20 23:20:48 FATAL Launcher:32 - fatal log
+2018-08-20 23:20:48 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:20:53 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:20:55 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:20:56 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:20:56 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:21:04 TRACE StoreWeaponsScreen:45 - 1 weapons stored
+2018-08-20 23:23:05 TRACE Launcher:27 - trace log
+2018-08-20 23:23:05 DEBUG Launcher:28 - debug log
+2018-08-20 23:23:05 INFO  Launcher:29 - info log
+2018-08-20 23:23:05 WARN  Launcher:30 - warn log
+2018-08-20 23:23:05 ERROR Launcher:31 - error log
+2018-08-20 23:23:05 FATAL Launcher:32 - fatal log
+2018-08-20 23:23:06 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:23:11 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:23:12 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:23:13 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:23:13 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:23:17 TRACE StoreWeaponsScreen:46 - 1 weapons stored
+2018-08-20 23:34:14 TRACE Launcher:27 - trace log
+2018-08-20 23:34:14 DEBUG Launcher:28 - debug log
+2018-08-20 23:34:14 INFO  Launcher:29 - info log
+2018-08-20 23:34:14 WARN  Launcher:30 - warn log
+2018-08-20 23:34:14 ERROR Launcher:31 - error log
+2018-08-20 23:34:14 FATAL Launcher:32 - fatal log
+2018-08-20 23:34:14 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:34:17 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:34:20 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:34:20 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:34:20 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:34:23 TRACE StoreWeaponsScreen:65 - 1 weapons stored
+2018-08-20 23:40:56 TRACE Launcher:27 - trace log
+2018-08-20 23:40:56 DEBUG Launcher:28 - debug log
+2018-08-20 23:40:56 INFO  Launcher:29 - info log
+2018-08-20 23:40:56 WARN  Launcher:30 - warn log
+2018-08-20 23:40:56 ERROR Launcher:31 - error log
+2018-08-20 23:40:56 FATAL Launcher:32 - fatal log
+2018-08-20 23:40:56 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:40:59 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:41:01 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:41:02 WARN  UserDaoJdbc:89 - failed to find user with provided credentials from the db
+2018-08-20 23:41:02 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:41:06 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:41:08 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:41:08 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:41:08 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:41:11 TRACE StoreWeaponsScreen:65 - 1 weapons stored
+2018-08-20 23:41:59 TRACE Launcher:27 - trace log
+2018-08-20 23:41:59 DEBUG Launcher:28 - debug log
+2018-08-20 23:41:59 INFO  Launcher:29 - info log
+2018-08-20 23:41:59 WARN  Launcher:30 - warn log
+2018-08-20 23:41:59 ERROR Launcher:31 - error log
+2018-08-20 23:41:59 FATAL Launcher:32 - fatal log
+2018-08-20 23:41:59 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:42:04 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:42:06 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:42:07 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:42:07 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:42:09 TRACE StoreWeaponsScreen:66 - 1 weapons stored
+2018-08-20 23:42:26 TRACE StoreWeaponsScreen:66 - 1 weapons stored
+2018-08-20 23:43:20 TRACE Launcher:27 - trace log
+2018-08-20 23:43:20 DEBUG Launcher:28 - debug log
+2018-08-20 23:43:20 INFO  Launcher:29 - info log
+2018-08-20 23:43:20 WARN  Launcher:30 - warn log
+2018-08-20 23:43:20 ERROR Launcher:31 - error log
+2018-08-20 23:43:20 FATAL Launcher:32 - fatal log
+2018-08-20 23:43:20 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:43:25 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:43:27 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:43:28 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:43:28 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:43:35 TRACE StoreWeaponsScreen:66 - 1 weapons stored
+2018-08-20 23:43:41 TRACE WithdrawScreen:66 - 1 weapons withdrawn
+2018-08-20 23:43:49 DEBUG LoginScreen:20 - started login screen
+2018-08-20 23:43:54 TRACE LoginScreen:24 - username = luke skywalker
+2018-08-20 23:43:56 DEBUG LoginScreen:32 - received users credentials
+2018-08-20 23:43:56 INFO  LoginScreen:36 - user successfully logged in
+2018-08-20 23:43:56 INFO  LoginScreen:37 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-20 23:43:58 TRACE StoreWeaponsScreen:66 - 1 weapons stored
+2018-08-21 00:06:00 TRACE Launcher:27 - trace log
+2018-08-21 00:06:00 DEBUG Launcher:28 - debug log
+2018-08-21 00:06:00 INFO  Launcher:29 - info log
+2018-08-21 00:06:00 WARN  Launcher:30 - warn log
+2018-08-21 00:06:00 ERROR Launcher:31 - error log
+2018-08-21 00:06:00 FATAL Launcher:32 - fatal log
+2018-08-21 00:06:00 DEBUG LoginScreen:21 - started login screen
+2018-08-21 00:06:05 TRACE LoginScreen:25 - username = luke skywalker
+2018-08-21 00:06:07 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 00:06:07 INFO  LoginScreen:37 - user successfully logged in
+2018-08-21 00:06:07 INFO  LoginScreen:38 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-21 00:06:18 DEBUG LoginScreen:21 - started login screen
+2018-08-21 00:06:21 TRACE LoginScreen:25 - username = luke skywalker
+2018-08-21 00:06:23 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 00:06:24 INFO  LoginScreen:37 - user successfully logged in
+2018-08-21 00:06:24 INFO  LoginScreen:38 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-21 00:07:01 TRACE Launcher:27 - trace log
+2018-08-21 00:07:01 DEBUG Launcher:28 - debug log
+2018-08-21 00:07:01 INFO  Launcher:29 - info log
+2018-08-21 00:07:01 WARN  Launcher:30 - warn log
+2018-08-21 00:07:01 ERROR Launcher:31 - error log
+2018-08-21 00:07:01 FATAL Launcher:32 - fatal log
+2018-08-21 00:07:01 DEBUG LoginScreen:21 - started login screen
+2018-08-21 00:07:05 TRACE LoginScreen:25 - username = register
+2018-08-21 00:07:55 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-21 00:07:55 DEBUG LoginScreen:21 - started login screen
+2018-08-21 08:28:14 TRACE Launcher:27 - trace log
+2018-08-21 08:28:14 DEBUG Launcher:28 - debug log
+2018-08-21 08:28:14 INFO  Launcher:29 - info log
+2018-08-21 08:28:14 WARN  Launcher:30 - warn log
+2018-08-21 08:28:14 ERROR Launcher:31 - error log
+2018-08-21 08:28:14 FATAL Launcher:32 - fatal log
+2018-08-21 08:28:14 DEBUG LoginScreen:21 - started login screen
+2018-08-21 08:28:17 TRACE LoginScreen:25 - username = register
+2018-08-21 08:28:55 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-21 08:28:55 DEBUG LoginScreen:21 - started login screen
+2018-08-21 10:23:52 TRACE Launcher:27 - trace log
+2018-08-21 10:23:52 DEBUG Launcher:28 - debug log
+2018-08-21 10:23:52 INFO  Launcher:29 - info log
+2018-08-21 10:23:52 WARN  Launcher:30 - warn log
+2018-08-21 10:23:52 ERROR Launcher:31 - error log
+2018-08-21 10:23:52 FATAL Launcher:32 - fatal log
+2018-08-21 10:23:52 DEBUG LoginScreen:21 - started login screen
+2018-08-21 10:23:56 TRACE LoginScreen:25 - username = luke skywalker
+2018-08-21 10:23:58 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 10:23:59 INFO  LoginScreen:37 - user successfully logged in
+2018-08-21 10:23:59 INFO  LoginScreen:38 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-21 10:25:07 TRACE Launcher:27 - trace log
+2018-08-21 10:25:07 DEBUG Launcher:28 - debug log
+2018-08-21 10:25:07 INFO  Launcher:29 - info log
+2018-08-21 10:25:07 WARN  Launcher:30 - warn log
+2018-08-21 10:25:07 ERROR Launcher:31 - error log
+2018-08-21 10:25:07 FATAL Launcher:32 - fatal log
+2018-08-21 10:25:07 DEBUG LoginScreen:21 - started login screen
+2018-08-21 10:25:10 TRACE LoginScreen:25 - username = luke skywalker
+2018-08-21 10:25:11 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 10:25:12 INFO  LoginScreen:37 - user successfully logged in
+2018-08-21 10:25:12 INFO  LoginScreen:38 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-21 10:32:26 TRACE Launcher:27 - trace log
+2018-08-21 10:32:26 DEBUG Launcher:28 - debug log
+2018-08-21 10:32:26 INFO  Launcher:29 - info log
+2018-08-21 10:32:26 WARN  Launcher:30 - warn log
+2018-08-21 10:32:26 ERROR Launcher:31 - error log
+2018-08-21 10:32:26 FATAL Launcher:32 - fatal log
+2018-08-21 10:32:26 DEBUG LoginScreen:21 - started login screen
+2018-08-21 10:32:29 TRACE LoginScreen:25 - username = register
+2018-08-21 10:32:40 TRACE UserDaoJdbc:39 - 1 records created
+2018-08-21 10:32:41 DEBUG LoginScreen:21 - started login screen
+2018-08-21 10:32:49 TRACE LoginScreen:25 - username = michael
+2018-08-21 10:32:51 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 10:32:51 WARN  UserDaoJdbc:89 - failed to find user with provided credentials from the db
+2018-08-21 10:32:51 DEBUG LoginScreen:21 - started login screen
+2018-08-21 10:33:03 TRACE LoginScreen:25 - username = michael
+2018-08-21 10:33:05 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 10:33:05 INFO  LoginScreen:37 - user successfully logged in
+2018-08-21 10:33:05 INFO  LoginScreen:38 - WelcomeUser [username=michael, password=null, firstName=michael, lastName=myers]!
+2018-08-21 10:33:19 TRACE StoreWeaponsScreen:66 - 1 weapons stored
+2018-08-21 10:33:28 TRACE WithdrawScreen:66 - 1 weapons withdrawn
+2018-08-21 10:33:33 DEBUG LoginScreen:21 - started login screen
+2018-08-21 10:33:40 TRACE LoginScreen:25 - username = luke skywalker
+2018-08-21 10:33:43 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 10:33:44 INFO  LoginScreen:37 - user successfully logged in
+2018-08-21 10:33:44 INFO  LoginScreen:38 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-21 10:33:54 TRACE StoreWeaponsScreen:66 - 1 weapons stored
+2018-08-21 10:34:08 DEBUG LoginScreen:21 - started login screen
+2018-08-21 12:27:56 TRACE Launcher:27 - trace log
+2018-08-21 12:27:56 DEBUG Launcher:28 - debug log
+2018-08-21 12:27:56 INFO  Launcher:29 - info log
+2018-08-21 12:27:56 WARN  Launcher:30 - warn log
+2018-08-21 12:27:56 ERROR Launcher:31 - error log
+2018-08-21 12:27:56 FATAL Launcher:32 - fatal log
+2018-08-21 12:27:56 DEBUG LoginScreen:21 - started login screen
+2018-08-21 12:28:01 TRACE LoginScreen:25 - username = luke skywalker
+2018-08-21 12:28:03 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 12:28:04 INFO  LoginScreen:37 - user successfully logged in
+2018-08-21 12:28:04 INFO  LoginScreen:38 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-21 12:28:14 DEBUG LoginScreen:21 - started login screen
+2018-08-21 12:28:17 TRACE LoginScreen:25 - username = luke skywalker
+2018-08-21 12:28:19 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 12:28:19 INFO  LoginScreen:37 - user successfully logged in
+2018-08-21 12:28:19 INFO  LoginScreen:38 - WelcomeUser [username=luke skywalker, password=null, firstName=luke, lastName=skywalker]!
+2018-08-21 12:29:15 TRACE Launcher:27 - trace log
+2018-08-21 12:29:15 DEBUG Launcher:28 - debug log
+2018-08-21 12:29:15 INFO  Launcher:29 - info log
+2018-08-21 12:29:15 WARN  Launcher:30 - warn log
+2018-08-21 12:29:15 ERROR Launcher:31 - error log
+2018-08-21 12:29:15 FATAL Launcher:32 - fatal log
+2018-08-21 12:29:15 DEBUG LoginScreen:21 - started login screen
+2018-08-21 12:29:18 TRACE LoginScreen:25 - username = michael
+2018-08-21 12:29:21 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 12:29:22 INFO  LoginScreen:37 - user successfully logged in
+2018-08-21 12:29:22 INFO  LoginScreen:38 - WelcomeUser [username=michael, password=null, firstName=michael, lastName=myers]!
+2018-08-21 12:29:30 DEBUG LoginScreen:21 - started login screen
+2018-08-21 12:29:35 TRACE LoginScreen:25 - username = admin
+2018-08-21 12:29:36 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 12:29:36 WARN  UserDaoJdbc:89 - failed to find user with provided credentials from the db
+2018-08-21 12:29:36 DEBUG LoginScreen:21 - started login screen
+2018-08-21 12:29:41 TRACE LoginScreen:25 - username = admin
+2018-08-21 12:29:42 DEBUG LoginScreen:33 - received users credentials
+2018-08-21 12:29:42 INFO  LoginScreen:37 - user successfully logged in
+2018-08-21 12:29:42 INFO  LoginScreen:38 - WelcomeUser [username=admin, password=null, firstName=Yoda, lastName=Yoda]!

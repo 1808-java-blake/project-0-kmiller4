@@ -1,37 +1,96 @@
 package com.revature.screens;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Scanner;
 
-import com.revature.daos.UserData;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.apache.log4j.Logger;
+
+import com.revature.beans.Account;
+import com.revature.beans.User;
+import com.revature.daos.AccountDao;
+import com.revature.util.AppState;
+import com.revature.util.ConnectionUtil;
 
 public class StoreWeaponsScreen implements Screen {
+	private AppState state = AppState.state;
+	private Logger log = Logger.getRootLogger();
+	private Scanner scan = new Scanner(System.in);
+	private AccountDao ac = AccountDao.currentAccountDao;
+	private ConnectionUtil cu = ConnectionUtil.cu;
+	private int currentWeapons;
+	private ResultSet rs;
+
+	@Override
 	public Screen start() {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("You have: "  + UserData.numWeapons);
-		System.out.println("How many weapons would you like to store?");
-		int data = scan.nextInt();
-		UserData.numWeapons += data;
-		BufferedWriter writer = null;
-		try {
-			writer = new BufferedWriter(new FileWriter("C:\\Users\\Kyle\\Documents\\Revature Training\\week1\\project-0-kmiller4\\MedievalWeaponShop\\src\\main\\resources\\users\\transactionHistory.txt", true));
-			System.out.println("file writer should exist");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		User currentUser = state.getCurrentUser();
+		if(currentUser == null) {
+			return new LoginScreen();
 		}
 		try {
-			writer.append('\n' + "added " + data);
-			System.out.println("data should have been written");
-			writer.close();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			//Account a = new Account();
+			System.out.println("How many weapons do you want to store?");
+			String addedBalance = scan.nextLine();
+			//increment balance by using prepared statements
+			//currentWeapons = currentUser.getNumWeapons();
+			try (Connection conn = cu.getConnection()) {
+				PreparedStatement ps = conn.prepareStatement(
+						"SELECT balance FROM accounts WHERE userid =  ?");
+				ps.setInt(1, currentUser.getId());
+				rs = ps.executeQuery();
+			}
+			catch (SQLException e) {
+				System.out.println(e.getMessage());
+				for(StackTraceElement ste: e.getStackTrace()) {
+					log.error(ste);
+				}
+			}
+			try {
+				rs.next();
+				currentWeapons = rs.getInt(1);
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			currentWeapons += Integer.parseInt(addedBalance);
+			currentUser.setNumWeapons(currentWeapons);
+			try (Connection conn = cu.getConnection()) {
+				PreparedStatement ps = conn.prepareStatement(
+						"UPDATE accounts SET balance = ?  WHERE userid =  ?");
+				ps.setInt(1, currentWeapons);
+				ps.setInt(2, currentUser.getId());
+				int recordsCreated = ps.executeUpdate();
+				log.trace(recordsCreated + " weapons stored");
+			}
+				catch (SQLException e1) {
+					// TODO Auto-generated catch block
+					//log.error(e.getMessage());
+					System.out.println(e1.getMessage());
+					for(StackTraceElement ste: e1.getStackTrace()) {
+						log.error(ste);
+					}
+					log.warn("failed to add weapons");
+				}
+			
+			
+			//a.setBalance(Integer.valueOf(balance));
+			//a.setUserId(currentUser.getId());
+			//int accountId = ac.createAccount(a);
+			//if(accountId == 0) {
+				//log.error("failed to create account");
+				//return new LoginScreen();
+			//}
+			//a.setAccountId(accountId);
+			//log.info("created account" + a);
+			
+		} catch (NumberFormatException e) {
+			System.out.println("Invalid number");
 		}
-		System.out.println("You now have: " + UserData.numWeapons + " weapons");
+
 		return new HomeScreen();
 	}
+
 }

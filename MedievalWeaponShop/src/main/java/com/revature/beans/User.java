@@ -1,19 +1,21 @@
 package com.revature.beans;
 
-import java.io.Serializable;
-
-public class User implements Serializable {
+//no longer a java bean because it doesn't implement serializable
+public class User {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 2878891003003024330L;
-	
+
+	private int id;
 	private String username;
+
 	private String password;
+
 	private String firstName;
 	private String lastName;
-	private int age;
+	private int numWeapons;
 
 	public User() {
 		super();
@@ -26,59 +28,7 @@ public class User implements Serializable {
 		this.password = password;
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.age = age;
-	}
-
-	public String getUsername() {
-		return username;
-	}
-
-	public void setUsername(String username) {
-		this.username = username;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
-	public String getFirstName() {
-		return firstName;
-	}
-
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-
-	public String getLastName() {
-		return lastName;
-	}
-
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + age;
-		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
-		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
-		result = prime * result + ((password == null) ? 0 : password.hashCode());
-		result = prime * result + ((username == null) ? 0 : username.hashCode());
-		return result;
+		this.numWeapons = 0;
 	}
 
 	@Override
@@ -90,8 +40,6 @@ public class User implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		User other = (User) obj;
-		if (age != other.age)
-			return false;
 		if (firstName == null) {
 			if (other.firstName != null)
 				return false;
@@ -115,10 +63,71 @@ public class User implements Serializable {
 		return true;
 	}
 
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public int getNumWeapons() {
+		return numWeapons;
+
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
+		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
+		result = prime * result + ((password == null) ? 0 : password.hashCode());
+		result = prime * result + ((username == null) ? 0 : username.hashCode());
+		return result;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
 	@Override
 	public String toString() {
 		return "User [username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName="
-				+ lastName + ", age=" + age + "]";
+				+ lastName + "]";
+	}
+
+	public void setNumWeapons(int i) {
+		this.numWeapons = i;
+
 	}
 
 }
